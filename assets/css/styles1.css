@@ -1,0 +1,22 @@
+html,body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+header nav{
+    background-color: #ffc107 !important;
+}
+#section-banner{
+    background-color: #ffc107;
+    min-height: 90%;
+}
+/* helper class used to create space between divs without CONSEQUENCES */
+.padder{
+    display: inline-block;
+    margin:50px ;
+}
+
+#banner-txt-img h1{
+    font-weight: bolder;
+}

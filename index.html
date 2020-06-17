@@ -8,37 +8,55 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/styles1.css">
 
 </head>
 
 <body>
 
   <header>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="/">
+      <img width="50px" src="/assets/images/undraw_heavy_box_agqi.svg" alt="Jai Lakshmi">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="/about.html">About the company</a>
+          <a class="nav-item nav-link" href="/contact.html">Contact us</a>
         </div>
       </div>
     </nav>
 
   </header>
 
-  <section id="banner-section">
+  <section id="section-banner">
 
-    <div>
+      <div class="container">
+        <div class="padder"></div>
+        <div class="row justify-content-around" id="banner-txt-img">
+          <div class="col col-sm-10 col-lg-4">
+            <h1>
+              Lorem ipsum doler this is some random text
+            </h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </p>
+          </div>
+          <div class="col col-sm-10 col-lg-6 mt-3">
+            <img class="img-fluid" src="/assets/images/banner-transport.svg" alt="Transportation for all your needs">
+          </div>  
+        </div>
 
-    </div>
+      </div>
 
   </section>
+
+
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

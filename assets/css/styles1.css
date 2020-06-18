@@ -11,6 +11,9 @@ header nav{
     background-color: #ffc107;
     min-height: 90%;
 }
+#section-services{
+    color:#3d3d3c;
+}
 /* helper class used to create space between divs without CONSEQUENCES */
 .padder{
     display: inline-block;
@@ -19,4 +22,7 @@ header nav{
 
 #banner-txt-img h1{
     font-weight: bolder;
+}
+.svgService{
+    height: 150px;
 }

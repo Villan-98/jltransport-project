@@ -14,6 +14,9 @@ header nav{
 #section-services{
     color:#3d3d3c;
 }
+#section-howWeHelps{
+    background-color: rgb(240, 240, 238);
+}
 /* helper class used to create space between divs without CONSEQUENCES */
 .padder{
     display: inline-block;

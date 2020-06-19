@@ -15,7 +15,7 @@ header nav{
     color:#3d3d3c;
 }
 #section-how-we-help{
-    background-color: rgb(240, 240, 238);
+    background-color:#eef2f5;
 }
 /* helper class used to create space between divs without CONSEQUENCES */
 .padder{
@@ -48,7 +48,20 @@ header nav{
     background-color: #2d2d86;
     min-height: 200px;
 }
-.svgService{
+#section-services .svgImg{
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    -webkit-box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.07);
+    box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.07);
+}
+#section-services .svgImg:hover{
+    transform: scale(1.01);
+    -webkit-box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.15);
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+.svgImg img{
     height: 150px;
 }
 

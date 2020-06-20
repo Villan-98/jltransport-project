@@ -11,13 +11,13 @@ p{
     letter-spacing: 1px;
     line-height: 1.6;
 }
-a{
+nav a{
     font-size: 0.9em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
     font-weight: bold;
 }
-a:hover{
+nav a:hover{
     transform: scale(1.07);
 }
 
@@ -41,4 +41,28 @@ a:hover{
 #section-services p,#section-how-we-help p{
     font-size: 0.8em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer h4{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 1em;
+}
+footer p{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 0.7em;
+}
+footer a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 0.8em;
+}
+
+footer a:hover{
+    color: white;
 }

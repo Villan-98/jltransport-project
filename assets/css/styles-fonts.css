@@ -24,12 +24,14 @@ nav a:hover{
 #banner-txt-img h1{
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#2d2d86;
 }
 
 #section-services h1,#section-how-we-help h1{
     font-size: 3em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
+    color:#2d2d86;
 }
 #section-services h2,#section-how-we-help h2{
     padding:25px 0 5px 5px;
@@ -47,19 +49,17 @@ footer h4{
     font-family: 'Segoe UI', Tahoma, sans-serif;
     color: white;
     font-weight: lighter;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 footer p{
     font-family: 'Segoe UI', Tahoma, sans-serif;
     color: white;
-    font-weight: lighter;
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 footer a {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, sans-serif;
     color: white;
-    font-weight: lighter;
     font-size: 0.8em;
 }
 

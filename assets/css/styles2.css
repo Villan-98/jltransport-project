@@ -11,6 +11,10 @@ nav{
     display: inline-block;
     margin:50px
 }
+#section-contact-title{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 .cardBorder{
 
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -31,7 +35,7 @@ nav{
     height: 150px;
 }
 
-#section-registered-office{
+#section-head-office{
     background-color: #eef2f5;
 }
 

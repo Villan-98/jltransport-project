@@ -15,6 +15,7 @@ nav a{
     font-size: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 1.5px;
+    opacity: 100%;
 }
   
 .nav-link {
@@ -22,9 +23,9 @@ nav a{
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #2d2d86;
+    color: #2d2d86 !important;
     padding: 20px 0px;
-    margin: 0px 20px;
+    margin: 0px 10px;
     display: inline-block;
     position: relative;
   }
@@ -43,7 +44,7 @@ nav a{
   }
   
   .nav-link-anim:hover::before {
-    width: 100%;
+    width: 90%;
   }
     
 
@@ -62,20 +63,44 @@ nav a{
 #section-branches{
     color: #364655;
 }
-#section-services h1,#section-how-we-help h1,#section-head-office h1,#section-branches h1{
+#section-services h1,#section-head-office h1,#section-branches h1{
     font-size: 3em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
     color:#2d2d86;
 }
-#section-services h2,#section-how-we-help h2,#section-head-office h2,#section-branches h2{
+#section-how-we-help{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#section-how-we-help h1{
+    font-size: 3em;
+    letter-spacing: 2px;
+    color:#fff;
+}
+#section-how-we-help h2{
+    padding:25px 0 5px 5px;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+#section-how-we-help p{
+    font-size: 0.8em;
+    color:#fff;
+}
+
+#section-how-we-help .card p{
+    color:#000;
+}
+
+#section-services h2,#section-head-office h2,#section-branches h2{
     padding:25px 0 5px 5px;
     font-size: 1.8em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
     line-height: 1.2;
 }
-#section-services p,#section-how-we-help p{
+
+#section-services p{
     font-size: 0.8em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

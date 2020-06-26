@@ -15,15 +15,18 @@ header nav{
 #get-in-touch-btn{
     padding:10px 20px;
     border: 4px #2d2d86 solid;
-    background-color: transparent;
-    color:#2d2d86;
+    background-color: #2d2d86;
+    color:white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
     transition: ease-in-out 120ms;
+    border-radius: 8px;
+
+    
 }
 #get-in-touch-btn:hover{
-    background-color: #2d2d86;
-    color:#fff;
+    background-color: #fff;
+    color: #2d2d86;
     transition: ease-in-out 150ms;
     transform: translateY(-7px);
 }

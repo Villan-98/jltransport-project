@@ -12,14 +12,41 @@ p{
     line-height: 1.6;
 }
 nav a{
-    font-size: 0.9em;
+    font-size: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
+}
+  
+.nav-link {
     font-weight: bold;
-}
-nav a:hover{
-    transform: scale(1.07);
-}
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2d2d86;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #2d2d86;
+  }
+  
+  .nav-link-anim::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+  .nav-link-anim:hover::before {
+    width: 100%;
+  }
+    
+
 
 #banner-txt-img h1{
     font-weight: bolder;

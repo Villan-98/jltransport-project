@@ -25,6 +25,8 @@ nav{
     -moz-box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.07);
     box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.07);
 }
+
+
 .cardHover:hover{
 
     transform: scale(1.01);
@@ -36,9 +38,31 @@ nav{
 .svgImg img{
     height: 150px;
 }
-
+.btn-go-to{
+    background-color:#364655 ;
+    color:white;
+    border: solid;
+    border-radius: 10px;
+    border-color: #364655;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+.btn-go-to:hover{
+    background-color: white ;
+    border:solid;
+    border-color:#364655;
+    color: #364655;
+    transition: ease-in-out 150ms;
+    transform: translateY(-3px);
+}
+#btn-go-head-office{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 #section-head-office{
     background-color: #eef2f5;
+    
 }
 
 footer{

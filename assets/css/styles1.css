@@ -68,8 +68,7 @@ header nav{
 
 #section-contact{
 
-    background-image: url("../../assets/images/real-truck-img.png");
-    background-size: cover;
+    background-color: #ffc107;
     min-height: 60%;
 
 }

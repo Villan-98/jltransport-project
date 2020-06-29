@@ -39,19 +39,19 @@ nav{
     height: 150px;
 }
 .btn-go-to{
-    background-color:#364655 ;
+    background-color:#2d2d86 ;
     color:white;
     border: solid;
     border-radius: 10px;
-    border-color: #364655;
+    border-color: #2d2d86;
     padding: 8px;
     margin-bottom: 12px;
 }
 .btn-go-to:hover{
     background-color: white ;
     border:solid;
-    border-color:#364655;
-    color: #364655;
+    border-color:#2d2d86;
+    color: #2d2d86;
     transition: ease-in-out 150ms;
     transform: translateY(-3px);
 }
@@ -59,6 +59,19 @@ nav{
     margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: #ffc107;
+    color: #2d2d86;
+    font-weight: bold;
+    border-color: #ffc107;
+}
+
+#btn-go-head-office:hover{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent;
+    color: #2d2d86;
+    border-color: #2d2d86;
 }
 #section-head-office{
     background-color: #eef2f5;

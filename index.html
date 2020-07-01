@@ -41,22 +41,6 @@
     <a href="https://forms.gle/46UP2ziGnVMkbpoE8">
       <button type="button" id="get-in-touch-side-btn" >Get in Touch</button>
     </a>
-    <script>
-      window.addEventListener('scroll',(e)=>{
-        console.log("lsdkjfskl")
-        var y=window.scrollY
-        console.log(y)
-        if(y>450)
-        {
-          document.getElementById('get-in-touch-side-btn').style.opacity= Math.min(y / 1600,.800);
-        }
-        if(y<450)
-        {
-          document.getElementById('get-in-touch-side-btn').style.opacity= 0;
-
-        }
-      })
-    </script>
     <div class="container">
       <div class="padder"></div>
       <div class="row justify-content-around" id="banner-txt-img">
@@ -269,6 +253,14 @@
       if (scroll_pos > 2600) {
         incrementCounter();
         window.removeEventListener("scroll", scrollCounterHandler, true);      
+      }
+      if(scroll_pos>450)
+        {
+          document.getElementById('get-in-touch-side-btn').style.opacity= Math.min(scroll_pos / 1600,.800);
+        }
+      if(scroll_pos<450)
+      {
+        document.getElementById('get-in-touch-side-btn').style.opacity= 0;
       }
     }
 

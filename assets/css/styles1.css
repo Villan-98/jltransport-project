@@ -24,6 +24,25 @@ header nav{
 
     
 }
+#get-in-touch-side-btn{
+    top:40% ; 
+    letter-spacing:1px; 
+    writing-mode: vertical-rl;
+    opacity: 0;
+    position: fixed;
+    z-index: 10;
+    border:  #2f3117 solid;
+    background-color: #2f3117;
+    color:white;
+    padding: 5px;
+    border-radius: 10px;
+}
+#get-in-touch-side-btn:hover{
+
+    color: white;
+    transform: scale(1.05);
+    opacity: 1!important;
+}
 #get-in-touch-btn:hover{
     background-color: #fff;
     color: #2d2d86;

@@ -36,9 +36,27 @@
     </nav>
 
   </header>
-
   <section id="section-banner">
 
+    <a href="https://forms.gle/46UP2ziGnVMkbpoE8">
+      <button type="button" id="get-in-touch-side-btn" >Get in Touch</button>
+    </a>
+    <script>
+      window.addEventListener('scroll',(e)=>{
+        console.log("lsdkjfskl")
+        var y=window.scrollY
+        console.log(y)
+        if(y>450)
+        {
+          document.getElementById('get-in-touch-side-btn').style.opacity= Math.min(y / 1600,.800);
+        }
+        if(y<450)
+        {
+          document.getElementById('get-in-touch-side-btn').style.opacity= 0;
+
+        }
+      })
+    </script>
     <div class="container">
       <div class="padder"></div>
       <div class="row justify-content-around" id="banner-txt-img">
@@ -374,7 +392,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
-
+  
 
 </body>
 

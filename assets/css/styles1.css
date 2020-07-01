@@ -25,9 +25,9 @@ header nav{
     
 }
 #get-in-touch-side-btn{
-    top:40% ; 
-    letter-spacing:1px; 
+    top:40% ;  
     writing-mode: vertical-rl;
+    text-orientation: upright;
     opacity: 0;
     position: fixed;
     z-index: 10;
@@ -36,6 +36,8 @@ header nav{
     color:white;
     padding: 5px;
     border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 #get-in-touch-side-btn:hover{
 

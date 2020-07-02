@@ -38,9 +38,7 @@
   </header>
   <section id="section-banner">
 
-    <a href="https://forms.gle/46UP2ziGnVMkbpoE8" id="get-in-touch-side-btn">
-      Get in Touch
-    </a>
+
     <div class="container">
       <div class="padder"></div>
       <div class="row justify-content-around" id="banner-txt-img">
@@ -232,39 +230,44 @@
 
   </section>
 
-  <!-- service counter script -->
+  <!-- scroll to top button -->
+  <div id="scroll-to-top">
+    <img src="assets/images/up-arrow.png" width="60" alt="go to top">
+  </div>
+  <a href="https://forms.gle/46UP2ziGnVMkbpoE8" id="get-in-touch-side-btn">
+    Get in Touch
+  </a>
+
   <script>
-    let scroll_pos = 0;
 
-    function incrementCounter() {
-      let c = document.querySelector("#service-count").innerHTML;
+    let scrollToTop = document.querySelector('#scroll-to-top');
+    let getInTouch = document.getElementById('get-in-touch-side-btn');
 
-      let id = setInterval(()=>{
-        document.querySelector("#service-count").innerHTML=c++;
-        if(c>600){
-          clearInterval(id);
-        }
-      },70)
+    scrollToTop.style.display = "none";
+    getInTouch.style.display = "none";
 
-    }
-
-    function scrollCounterHandler(e){
-      scroll_pos = window.scrollY;
-      if (scroll_pos > 2600) {
-        incrementCounter();
-        window.removeEventListener("scroll", scrollCounterHandler, true);      
-      }
-      if(scroll_pos>450)
-        {
-          document.getElementById('get-in-touch-side-btn').style.opacity= Math.min(scroll_pos / 1600,.800);
-        }
-      if(scroll_pos<450)
-      {
-        document.getElementById('get-in-touch-side-btn').style.opacity= 0;
+    function scrollCounterHandler(e) {
+      scroll_pos = window.scrollY
+      if (scroll_pos > 500) {
+        scrollToTop.style.display = "block";
+        getInTouch.style.display = "block";
+      } else {
+        scrollToTop.style.display = "none";
+        getInTouch.style.display = "none";
       }
     }
 
-    window.addEventListener('scroll', scrollCounterHandler ,true);
+    function scrollToTopHandler() {
+      window.scrollTo({
+        top: 100,
+        behavior: 'smooth'
+      });
+    }
+
+    window.addEventListener('scroll', scrollCounterHandler);
+    scrollToTop.addEventListener('click', scrollToTopHandler);
+
+
 
   </script>
 
@@ -384,7 +387,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
-  
+
 
 </body>
 

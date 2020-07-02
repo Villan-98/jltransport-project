@@ -64,7 +64,7 @@ header nav{
 }
 
 #section-how-we-help img{
-    height: 90px;
+    height: 120px;
     margin:25px 10px; 
 }
 
@@ -119,6 +119,27 @@ footer{
     -webkit-box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.07);
     -moz-box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.07);
     box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.07);
+}
+#service-counter{
+    background-color: #2d2d86;
+    font-weight: bolder;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    height: 100%;
+    color:#ffffff;
+    font-family: Cambria, 'Times New Roman', serif;
+    transition: ease-in-out 70ms;
+
+}
+#service-counter:hover{
+    transition: ease-in-out 90ms;
+    transform: scale(1.05);
+    background-color: #ffc107;
+    color: #2d2d86;
+    border:solid 5px #2d2d86 ;
+}
+#service-counter div{
+    padding:60px;
 }
 
 

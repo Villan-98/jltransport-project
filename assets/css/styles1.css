@@ -21,36 +21,31 @@ header nav{
     letter-spacing: 1px;
     transition: ease-in-out 120ms;
     border-radius: 8px;
+}
 
-    
-}
-#get-in-touch-side-btn{
-    top:40% ;  
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    opacity: 0;
-    position: fixed;
-    z-index: 10;
-    border:  #2f3117 solid;
-    background-color: #2f3117;
-    color:white;
-    padding: 5px;
-    border-radius: 3px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-#get-in-touch-side-btn:hover{
-
-    color: white;
-    transform: scale(1.05);
-    opacity: 1!important;
-}
 #get-in-touch-btn:hover{
     background-color: #fff;
     color: #2d2d86;
     transition: ease-in-out 150ms;
     transform: translateY(-7px);
 }
+
+#get-in-touch-side-btn{
+    top:40% ;  
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: fixed;
+    z-index: 999;
+    border:  #000 solid;
+    background-color: #000;
+    color:white;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
 
 #section-services{
     background-color: #ffffff;
@@ -69,7 +64,7 @@ header nav{
 }
 
 #section-how-we-help img{
-    height: 90px;
+    height: 120px;
     margin:25px 10px; 
 }
 
@@ -88,10 +83,8 @@ header nav{
 
 
 #section-contact{
-
     background-color: #ffc107;
     min-height: 60%;
-
 }
 
 #section-clients{
@@ -102,12 +95,51 @@ footer{
     background-color: #2d2d86;
 }
 
+#scroll-to-top{
+    position: fixed;
+    bottom:25px;
+    right: 25px;
+    transition: ease-in-out 70ms;
+    z-index: 999;
+}
+#scroll-to-top:hover{
+    transform: translateY(-10px);
+    transition: ease-in-out 100ms;
+    cursor: pointer;
+}
+@media(max-width: 768px) {
+    #scroll-to-top{
+        visibility: hidden;
+    }
+}
+
 #section-services .svgImg:hover{
     transform: scale(1.01);
     border-radius: 10px;
     -webkit-box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.07);
     -moz-box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.07);
     box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.07);
+}
+#service-counter{
+    background-color: #2d2d86;
+    font-weight: bolder;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    height: 100%;
+    color:#ffffff;
+    font-family: Cambria, 'Times New Roman', serif;
+    transition: ease-in-out 70ms;
+
+}
+#service-counter:hover{
+    transition: ease-in-out 90ms;
+    transform: scale(1.05);
+    background-color: #ffc107;
+    color: #2d2d86;
+    border:solid 5px #2d2d86 ;
+}
+#service-counter div{
+    padding:60px;
 }
 
 

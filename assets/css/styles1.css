@@ -8,6 +8,14 @@ header nav{
     background-color: #ffc107 !important;
 }
 
+header .navbar-brand {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: lighter ;
+    color: #2d2d86 !important;
+    letter-spacing: 2px;
+
+}
+
 #section-banner{
     background-color: #ffc107;
 }
